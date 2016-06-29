@@ -3,4 +3,4 @@ _10 Print porting to P5js_
 Disegna quadrati colorati che cambiano posizione e dimensione.
 
 
-![1](http://i.imgur.com/osObIQJ.png)
+![1](http://i.imgur.com/yBqvwny.png)
