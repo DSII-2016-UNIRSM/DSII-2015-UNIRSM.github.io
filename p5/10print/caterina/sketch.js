@@ -61,6 +61,13 @@ if (ciclo==3){
      // ellipse(x*g,height-random(height),x+g,x+g); //cerchio al centro 
  //variante cerchio Random
 }
+if (ciclo==4){
+     // Draw an ellipse with height based on volume
+  var h = map(vol, 0, 1, height, 0);
+  ellipse(width/2, h - 25, 50, 50);
+}
+
+
       // passo alla casella a lato
   x++;
 
@@ -75,7 +82,7 @@ if (ciclo==3){
     g = 5+random(20);
     background(colore-255);
   }
-  if (ciclo>= 4) {
+  if (ciclo>= 5) {
     ciclo=1;
   } 
   } //chiudi draw
